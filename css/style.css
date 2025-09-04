@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #d2d2d2;
+}
+
+
+
+.menu-lateral{
+    background-color: #161a2d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:85px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding: 25px 20px;
+    transition: all 0.4s ease ;
+
+}
+.menu-lateral:hover{
+    width: 260px;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+
+}
+
+.cabeçalho img{
+    width: 42px;
+    border-radius: 50%;
+}
+
+.cabeçalho h2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 23px;
+}
+
+.menu-lateral-links{
+    list-style: none;
+    margin-top: 20px;
+    height: 80%;
+    overflow-y: auto;
+    scrollbar-width: none; /* barra de rolamento */
+}
+
+.menu-lateral:hover .menu-lateral-links h4 span{
+    opacity: 1;
+}
+
+.menu-lateral-links h4{
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+
+.menu-lateral-links li a{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    color:#dbd4d4e3;
+    font-weight: 500;
+    padding: 15px 20px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.menu-lateral-links li a:hover{
+    background: #ffffff2d;
+    color: #fff;
+    border-radius:4px; ;
+}
+
+.perfil img{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.perfil .foto-perfil{
+    display: flex;
+    align-items: center;
+    color: #e5dede;
+}
+
+.detalhes{
+    margin-left: 23px;
+    white-space: nowrap; /*Faz o texto quebrar mesmo se ultrapassar a caixa*/
+}
+
+.perfil h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.perfil span{
+    font-size: 0.775rem;
+    font-weight: 600;
+}
+
