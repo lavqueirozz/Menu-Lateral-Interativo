@@ -21,4 +21,4 @@ O menu possui as seguintes características:
    git clone https://github.com/lavqueirozz/Menu-Lateral-Interativo.git
 
 ## 📷 Prévia do Projeto
-<img>
+<img src="img\Captura de tela 2025-09-04 000415.png" alt="Imagem projeto ">
